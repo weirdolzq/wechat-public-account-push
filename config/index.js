@@ -41,7 +41,7 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "傻瓜老婆", "year": "1999", "date": "09-09"},
+        {"type": "*生日", "name": "陈小姐", "year": "1999", "date": "09-09"},
         {"type": "节日", "name": "春节", "year": "2023", "date": "01-22"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "霸道总裁", "year": "2000", "date": "03-16"},
@@ -51,10 +51,6 @@ export const config = {
       customizedDateList: [
         // 在一起的日子
         {"keyword": "love_day", date: "2020-04-19"},
-        // 结婚纪念日
-        {"keyword": "marry_day", date: "2022-09-09"},
-        // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
       ]
     },
     {
