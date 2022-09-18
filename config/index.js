@@ -51,16 +51,12 @@ export const config = {
       customizedDateList: [
         // 在一起的日子
         {"keyword": "love_day", date: "2020-04-19"},
-        // 结婚纪念日
-        {"keyword": "marry_day", date: "2023-09-09"},
-        // 退伍日
-        {"keyword": "ex_day", date: "2023-09-10"},
       ]
     },
     {
       name: "陈小姐",
-      id: "oBjGO57qSSjWyPlpmehzeqMtfzXU",
-      useTemplateId: "bZxxwM2A532Nel0w4WQ-wwlGmitiKTHpywkA7YFB2mM",
+      id: "",
+      useTemplateId: "",
       province: "四川",
       city: "成都",
       horoscopeDate: '9-9',
